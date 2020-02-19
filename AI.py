@@ -70,9 +70,7 @@ def check_diagonals():
     global game_still_going
     diagonal_1 = board[0] == board[4] == board[8] != "-"
     diagonal_2 = board[2] == board[4] == board[5] != "-"
-    #if any diagonal does have match, flag that there is win
-    if diagonal_1 or diagonal_2 :
-        game_still_going = False
+    
     #return the winner X or O
     if diagonal_1:
         return board[0]
