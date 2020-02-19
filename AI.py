@@ -149,7 +149,7 @@ def findbestmove(board):
 board = ["X","-","-",
          "-","-","-",
          "-","-","-"]
-# board[7] = "X"
+         
 # v = minimax(board,True)
 # print(v)
 print(findbestmove(board))
